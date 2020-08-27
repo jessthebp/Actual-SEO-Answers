@@ -23,7 +23,10 @@
      ["Bing???"],
      ["You should try AMP."],
      ["Maybe... get rid of some ads? No? Okay."],
-     ["I miss 2003."]
+     ["I miss 2003."],
+     ["Probably a crawl budget problem."], 
+     ["We can automate this."],
+     ["Try FAQ schema."]
   ];
   
     function randomQuote() {
