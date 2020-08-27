@@ -1,4 +1,3 @@
-
   var quotes = [
     ["It depends."],
   [  "It was covered in Search Engine Roundtable last week."],
@@ -31,8 +30,7 @@
 function tweetIt() {
   var phrase = document.getElementById('quote').innerText;
   var tweetUrl = 'https://twitter.com/share?text=' +
-    phrase +
-    '.';
+    phrase;
     window.open(tweetUrl);
 }
 
