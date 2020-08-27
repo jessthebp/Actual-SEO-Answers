@@ -37,6 +37,6 @@ document.getElementById('quoteMe').addEventListener('click', function () {
     
     var theQuote = randomQuote();
       var randomized = document.getElementById('quote');
-      randomized.innerHTML = "'" + theQuote "'";
-  console.log("But John Mueller says...");
+      randomized.innerHTML = "'" + theQuote + "'";
+
 });
