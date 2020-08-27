@@ -16,6 +16,11 @@
      ["Check the robots.txt!"],
      ["Don't use JavaScript"],
      ["There's a plugin for that. Use it. I'm sure it's fine."], 
+     ["Content is King"], 
+     ["Looks like a lot of spammy backlinks. I suggest disavowing"],
+     ["You won't see rankings change for a few weeks. Maybe months.... maybe ever."],
+     ["Just create great websites."],
+     ["You should start a podcast."]
   ];
   
     function randomQuote() {
