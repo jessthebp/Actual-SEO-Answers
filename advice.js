@@ -15,16 +15,13 @@
      ["noindex, nofollow"],
      ["Check the robots.txt!"],
      ["Don't use JavaScript"],
-     ["There's a plugin for that. I'm sure it's fine."], 
-  ]
-  function randomQuote() {
-  return quotes [Math.floor(Math.random()*quotes.length)];
+     ["There's a plugin for that. Use it. I'm sure it's fine."], 
+  ];
+  
+    function randomQuote() {
+  return quotes[Math.floor(Math.random()*quotes.length)];
 }
 
-$('#quoteMachine').click(function() {
-  var theQuote = randomQuote();
-  $('#quote').text("'" + theQuote);
-});
 
 function tweetIt() {
   var phrase = document.getElementById('quote').innerText;
@@ -33,3 +30,13 @@ function tweetIt() {
     '.' + 'from http://bit.ly/quick-seo-answers';
     window.open(tweetUrl);
 }
+
+
+// When we click on the box let's use our friend
+document.getElementById('quoteMe').addEventListener('click', function () {
+    
+    var theQuote = randomQuote();
+      var randomized = document.getElementById('quote');
+      randomized.innerHTML = "'" + theQuote "'";
+  console.log("But John Mueller says...");
+});
