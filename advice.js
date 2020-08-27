@@ -26,7 +26,14 @@
      ["I miss 2003."],
      ["Probably a crawl budget problem."], 
      ["We can automate this."],
-     ["Try FAQ schema."]
+     ["Try FAQ schema."],
+     ["I should start a podcast."],
+     ["Can we add machine learning to the budget?"],
+     ["Oh, we can fix this with Python."],
+     ["I don't think the analytics is 100% correct, to be honest."],
+     ["Google renders JS!"],
+     ["Google doesn't render JS very well."],
+     ["Just ignore your competitors."]
   ];
   
     function randomQuote() {
