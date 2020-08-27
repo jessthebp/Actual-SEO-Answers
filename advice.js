@@ -33,8 +33,8 @@
 
 function tweetIt() {
   var phrase = document.getElementById('quote').innerText;
-  var tweetUrl = 'https://twitter.com/share?text=' +
-    phrase + " - from ";
+  var tweetUrl = 'https://twitter.com/share?text=' + "'" +
+    phrase + "'" + " - from ";
     window.open(tweetUrl);
 }
 
