@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+User-agent: 007
+Allow: /license-to-kill/
