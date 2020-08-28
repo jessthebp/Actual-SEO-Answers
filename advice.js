@@ -33,7 +33,12 @@
      ["I don't think the analytics is 100% correct, to be honest."],
      ["Google renders JS!"],
      ["Google doesn't render JS very well."],
-     ["Just ignore your competitors."]
+     ["Just ignore your competitors."],
+     ["It's about the internal ranking algorithm."],
+     ["Trust me, this will definitely help your PageRank."],
+     ["Domain Authority is actually a third party metric."],
+     ["I don't actually think the hidden text is helping your website."],
+     ["Your only social media is a Google+ account?"]
   ];
   
     function randomQuote() {
